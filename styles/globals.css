@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 a {
@@ -15,12 +16,72 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
 }
+
+nav h1{
+  cursor: pointer;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.nav__link a{
+  padding: 1rem 2rem;
+}
+.nav__link a:hover{
+  color: deepskyblue;
+}
+
+
+footer{
+  margin-top: 3rem;
+  font-weight: 300;
+  color: #c3c3c3;
+  text-align: center;
+}
+
+.notFound{
+  text-align: center;
+}
+
+.notFound--404{
+  font-size: 10rem;
+  color: gray;
+  margin: 2rem;
+}
+.notFound--exist,.notFound--line{
+  font-size: 2rem;
+  font-weight: bold;
+  color: gray;
+}
+
+
+.notFound--home{
+  color: deepskyblue;
+  cursor: pointer;
+}
+.notFound--line{
+  margin: 0;
+}
+
+.notFound--exist {
+  font-size: 1.2rem;
+  font-weight: 400;
+  
+}
+
+
+
+
+
+
+

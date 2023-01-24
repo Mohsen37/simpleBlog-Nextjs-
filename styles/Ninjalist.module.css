@@ -1,0 +1,25 @@
+.container{
+  margin: 2rem 5rem;
+}
+
+.item{
+  background-color: rgb(15, 15, 15);
+  font-weight: 300;
+  margin-left: 3rem;
+  margin-right: 5rem;
+  padding: 1rem 2rem;
+  border-left: 4px solid deepskyblue;
+  cursor: pointer;
+}
+
+.item:hover{
+  border-left: 8px solid rgb(0, 132, 255);
+}
+
+.card{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgb(15, 15, 15);
+  padding: 2rem 5rem;
+  border-radius: 8px;
+}

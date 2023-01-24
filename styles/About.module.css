@@ -1,0 +1,9 @@
+.container{
+  padding: 1rem 5rem;
+}
+
+.title{
+  border-bottom: 1px solid #c3c3c3;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
